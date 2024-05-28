@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextRA"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="RA"
+        android:padding="8dp"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/editTextNome"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Nome"
+        android:layout_below="@id/editTextRA"
+        android:layout_marginTop="8dp"
+        android:padding="8dp"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/editTextCEP"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="CEP"
+        android:layout_below="@id/editTextNome"
+        android:layout_marginTop="8dp"
+        android:padding="8dp"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/editTextLogradouro"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Logradouro"
+        android:layout_below="@id/editTextCEP"
+        android:layout_marginTop="8dp"
+        android:padding="8dp"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/editTextComplemento"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Complemento"
+        android:layout_below="@id/editTextLogradouro"
+        android:layout_marginTop="8dp"
+        android:padding="8dp"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/editTextBairro"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Bairro"
+        android:layout_below="@id/editTextComplemento"
+        android:layout_marginTop="8dp"
+        android:padding="8dp"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/editTextCidade"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Cidade"
+        android:layout_below="@id/editTextBairro"
+        android:layout_marginTop="8dp"
+        android:padding="8dp"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/editTextUF"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="UF"
+        android:layout_below="@id/editTextCidade"
+        android:layout_marginTop="8dp"
+        android:padding="8dp"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/buttonSave"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Salvar"
+        android:layout_below="@id/editTextUF"
+        android:layout_marginTop="16dp"
+        android:padding="8dp"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/buttonList"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Ver Alunos"
+        android:layout_below="@id/buttonSave"
+        android:layout_marginTop="16dp"
+        android:padding="8dp"
+        tools:ignore="HardcodedText" />
+</RelativeLayout>
